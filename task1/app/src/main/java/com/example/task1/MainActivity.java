@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         buttonQuestion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), AnswerTheQuestionActivity.class);
+                Intent intent = new Intent(MainActivity.this, AnswerTheQuestionActivity.class);
                 intent.putExtra(QUESTION_KEY, askQuestion.getText().toString());
                 startActivityForResult(intent, REQUEST_ANSWER);
             }
