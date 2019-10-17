@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Задание2</string>
+    <string name="enter_question">Введите вопрос: </string>
+    <string name="enter_answer">Введите ответ: </string>
+    <string name="button_text">Далее</string>
+    <string name="land">ландшатный вид</string>
+</resources>

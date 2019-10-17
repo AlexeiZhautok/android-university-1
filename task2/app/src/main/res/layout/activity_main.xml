@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="150dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/askQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        style="@style/enteredText"
+        android:hint="@string/enter_question"
+        android:inputType="" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:freezesText="true"
+        style="@style/receivedText"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/button"
+        android:text="@string/button_text" />
+
+</LinearLayout>

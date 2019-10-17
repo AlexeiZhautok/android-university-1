@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task2</string>
+    <string name="enter_question">Enter a question: </string>
+    <string name="enter_answer">Enter an answer: </string>
+    <string name="button_text">OK</string>
+    <string name="land">landscape view</string>
+</resources>
