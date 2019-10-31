@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Задание3</string>
+    <string name="enter_text">Введите вопрос (ответ): </string>
+    <string name="button_text">Далее</string>
+    <string name="land">ландшатный вид</string>
+    <string name="exit">Выход</string>
+    <string name="exit_dialog_message">Вы действительно хотите выйти?</string>
+    <string name="exit_dialog_ok">Да</string>
+    <string name="exit_dialog_cancel">Нет</string>
+</resources>
