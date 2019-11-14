@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Task4</string>
+    <string name="enter_number">Enter a number: </string>
+    <string name="button_text">OK</string>
+</resources>
